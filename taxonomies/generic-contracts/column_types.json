@@ -1,0 +1,158 @@
+[
+    {
+        "name": "publisher:name",
+        "title": "המפרסם",
+        "description": "שם המפרסם",
+        "dataType": "string",
+        "mandatory": true,
+        "unique": true
+    },
+    {
+        "name": "publisher:unit-name",
+        "title": "היחידה הרוכשת",
+        "description": "שם היחידה הרוכשת",
+        "dataType": "string",
+        "mandatory": true,
+        "unique": true
+    },
+    {
+        "name": "publisher:kind",
+        "title": "סוג המפרסם",
+        "description": "סוג הארגון המפרסם: רשות מקומית, משרד ממשלתי, יחידת סמך או חברה ממשלתית",
+        "dataType": "string",
+        "mandatory": true,
+        "unique": true
+    },
+    {
+        "name": "contract:is-sensitive",
+        "title": "התקשרות רגישה",
+        "description": "מציין האם ההתקשרות רגישה או לא",
+        "dataType": "string",
+        "mandatory": true
+    },
+    {
+        "name": "budget-line:code",
+        "title": "מספר תקנה תקציבית",
+        "description": "מזהה עשר ספרות של התקנה התקציבית ממנה יצאה ההתקשרות",
+        "dataType": "string"
+    },
+    {
+        "name": "budget-line:name",
+        "title": "שם התקנה התקציבית",
+        "description": "שם התקנה התקציבית ממנה יצאה ההתקשרות",
+        "dataType": "string",
+        "labelOf": "budget-line:code"
+    },
+    {
+        "name": "contract:order:id",
+        "title": "מספר ההזמנה",
+        "description": "מספר ההזמנה המשויכת להתקשרות זו",
+        "dataType": "string"
+    },
+    {
+        "name": "process:kind",
+        "title": "סוג תהליך הרכש",
+        "description": "סוג תהליך הרכש (למשל - פטור ממכרז)",
+        "dataType": "string"
+    },
+    {
+        "name": "process:reason",
+        "title": "סיבת תהליך הרכש",
+        "description": "סיבת תהליך הרכש (למשל - עילת הפטור ממכרז)",
+        "dataType": "string"
+    },
+    {
+        "name": "process:id",
+        "title": "מזהה תהליך הרכש",
+        "description": "מזהה תהליך הרכש הרלוונטי - למשל, מזהה מנו״ף",
+        "dataType": "string"
+    },
+    {
+        "name": "contract:purpose",
+        "title": "כותרת",
+        "description": "שם התהליך, המוצר או השירות המבוקש",
+        "dataType": "string",
+        "mandatory": true
+    },
+    {
+        "name": "contract:description",
+        "title": "תיאור",
+        "description": "תיאור מפורט יותר של המופיע בכותרת",
+        "dataType": "string"
+    },
+    {
+        "name": "contract:status",
+        "title": "סטטוס",
+        "description": "המצב הנוכחי של התהליך: חדש / פתוח / ממתין להחלטה / … ",
+        "dataType": "string"
+    },
+    {
+        "name": "supplier:id",
+        "title": "מזהה ספק",
+        "description": "מספר תאגיד של הספק מולו ההתקשרות",
+        "dataType": "string"
+    },
+    {
+        "name": "supplier:name",
+        "title": "שם ספק",
+        "description": "שם הספק מולו ההתקשרות",
+        "dataType": "string"
+    },
+    {
+        "name": "amount:volume",
+        "title": "היקף ההתקשרות",
+        "description": "הסכום הכולל שאושר להתקשרות זו",
+        "dataType": "number"
+    },
+    {
+        "name": "amount:executed",
+        "title": "ביצוע ההתקשרות",
+        "description": "הסכום הכולל ששולם להתקשרות זו",
+        "dataType": "number"
+    },
+    {
+        "name": "amount:currency",
+        "title": "מטבע ההתקשרות",
+        "description": "המטבע הרלוונטי להתקשרות זו (USD, EUR או ריק עבור ₪)",
+        "dataType": "string"
+    },
+    {
+        "name": "contract:publication-date",
+        "title": "תאריך פרסום",
+        "description": "מתי המידע פורסם לציבור?",
+        "dataType": "string"
+    },
+    {
+        "name": "contract:order-date",
+        "title": "תאריך הזמנה",
+        "description": "מתי בוצעה ההזמנה?",
+        "dataType": "string"
+    },
+    {
+        "name": "contract:start-date",
+        "title": "תאריך תחילת ההתקשרות",
+        "description": "מתי ההתקשרות מתחילה/התחילה?",
+        "dataType": "string"
+    },
+    {
+        "name": "contract:end-date",
+        "title": "תאריך סיום ההתקשרות",
+        "description": "מתי ההתקשרות תסתיים/הסתיימה?",
+        "dataType": "string"
+    },
+    {
+        "name": "report:year",
+        "title": "שנת התקציב",
+        "description": "שנת התקציב לה הדוח רלוונטי",
+        "dataType": "integer"
+    },
+    {
+        "name": "report:quearter",
+        "title": "רבעון",
+        "description": "הרבעון לו הדוח רלוונטי",
+        "dataType": "integer"
+    }
+]
+
+
+

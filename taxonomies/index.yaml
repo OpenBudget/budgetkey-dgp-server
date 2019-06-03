@@ -1,0 +1,9 @@
+generic-contracts:
+  title: Contracts
+  column_types: generic-contracts/column_types.json
+  processing_module: generic-contracts/process.py
+  config:
+    key-fields:
+      - publisher:name
+      - report:year
+      - report:quarter
