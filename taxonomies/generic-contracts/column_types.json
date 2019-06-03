@@ -12,7 +12,6 @@
         "title": "היחידה הרוכשת",
         "description": "שם היחידה הרוכשת",
         "dataType": "string",
-        "mandatory": true,
         "unique": true
     },
     {

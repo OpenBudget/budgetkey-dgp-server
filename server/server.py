@@ -9,7 +9,7 @@ from .dgps import CustomDgpServer
 from .configurations import configs
 
 app = web.Application()
-app.add_subapp('/api', DemoDgpServer())
+app.add_subapp('/api', CustomDgpServer())
 app.router.add_get('/configs', configs)
 
 
