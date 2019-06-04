@@ -6,4 +6,3 @@ generic-contracts:
     key-fields:
       - publisher:name
       - report:year
-      - report:quarter
